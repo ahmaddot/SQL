@@ -1,7 +1,8 @@
 ![image](https://user-images.githubusercontent.com/68532033/89723837-a54aa880-da25-11ea-928f-560b73304c97.png)
 ```
-Project SQL pertama di DQLab yaitu "Data Engineer Challenge with SQL". Dimana di project ini kita menggunakan syntax left join,right join,inner join, dan union.
-Kita menggunakan table yang sudah di sediakan DQLab yaitu ms_pelanggan,ms_produk,tr_penjualan dan tr_penjualan_detail.Semua table di atas sudah tersedia, kita tinggal menulis query dalam Code Editor.
+Project SQL pertama di DQLab yaitu "Data Engineer Challenge with SQL". Dimana di project ini kita menggunakan 
+syntax left join,right join,inner join, dan union. Kita menggunakan table yang sudah di sediakan DQLab yaitu 
+ms_pelanggan,ms_produk,tr_penjualan dan tr_penjualan_detail.Semua table sudah tersedia, kita tinggal menulis query dalam Code Editor.
 ```
 <b>Table yang digunakan</b>
 ![image](https://user-images.githubusercontent.com/68532033/89723872-2f930c80-da26-11ea-80f8-4a637b84ef0d.png)
