@@ -156,8 +156,11 @@ SELECT "1" as quarter, (COUNT(DISTINCT customerID)*100)/25 as q2 FROM orders_1 w
   </p>
 </details>
 
+<details>
+  <summary>Kesimpulan</summary>
+  <p>
+      
 ```
-Kesimpulan
 
 Berdasarkan data yang telah kita peroleh melalui query SQL, Kita dapat menarik kesimpulan bahwa :
 1. Performance xyz.com menurun signifikan di quarter ke-2, terlihat dari nilai penjualan dan revenue yang drop hingga 20% dan 24%,
@@ -169,3 +172,5 @@ Berdasarkan data yang telah kita peroleh melalui query SQL, Kita dapat menarik k
 jika ingin mencapai target dan positif growth di quarter ke-3. Rendahnya retention rate dan conversion rate bisa menjadi diagnosa awal bahwa customer tidak tertarik/kurang puas/kecewa berbelanja di xyz.com.
 
 ```
+  </p>
+</details>
