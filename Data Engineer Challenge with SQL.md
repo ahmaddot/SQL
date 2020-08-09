@@ -33,7 +33,9 @@ select no_urut,kode_produk,nama_produk,harga from ms_produk where nama_produk li
 select no_urut,kode_pelanggan,nama_pelanggan,alamat from ms_pelanggan where nama_pelanggan like '%S.H%' or nama_pelanggan like '%Ir.%' or nama_pelanggan like '%Drs.%';
 ```
 </details>
+
 <b>4. Mengurutkan Nama Pelanggan</b>
+<br>
 ![image](https://user-images.githubusercontent.com/68532033/89723559-56e7da80-da22-11ea-8dd9-bb881b50a5b7.png)
 <details>
   <summary>Click to show query sql</summary>
@@ -42,7 +44,9 @@ select no_urut,kode_pelanggan,nama_pelanggan,alamat from ms_pelanggan where nama
 select nama_pelanggan from ms_pelanggan order by nama_pelanggan;
 ```
 </details>
+
 <b>5. Mengurutkan Nama Pelanggan</b>
+<br>
 ![image](https://user-images.githubusercontent.com/68532033/89723575-96aec200-da22-11ea-9225-7f80abf12b51.png)
 <details>
   <summary>Click to show query sql</summary>
@@ -52,6 +56,7 @@ select nama_pelanggan from ms_pelanggan
 order by REPLACE(nama_pelanggan,'Ir. ','')asc;
 ```
 </details>
+
 <b>6. Nama Pelanggan yang Paling Panjang</b>
 ![image](https://user-images.githubusercontent.com/68532033/89723599-e1303e80-da22-11ea-92ab-c1c1745786ad.png)
 <details>
@@ -61,6 +66,7 @@ order by REPLACE(nama_pelanggan,'Ir. ','')asc;
 select nama_pelanggan from ms_pelanggan where length(nama_pelanggan) = 19 order by length(nama_pelanggan) desc;
 ```
 </details>
+
 <b>7. Nama Pelanggan yang Paling Panjang</b>
 ![image](https://user-images.githubusercontent.com/68532033/89723628-1dfc3580-da23-11ea-8a51-b5b5f664b66a.png)
 <details>
@@ -70,6 +76,7 @@ select nama_pelanggan from ms_pelanggan where length(nama_pelanggan) = 19 order 
 select nama_pelanggan from ms_pelanggan where length(nama_pelanggan) = 19 or length(nama_pelanggan) = 9 order by length(nama_pelanggan) desc; 
 ```
 </details>
+
 <b>8. Kuantitas Produk yang Banyak Terjual</b>
 ![image](https://user-images.githubusercontent.com/68532033/89723722-2b65ef80-da24-11ea-9978-73a10a164c0c.png)
 <details>
@@ -88,6 +95,7 @@ order by  sum(tr_penjualan_detail.qty) desc limit 2;
 
 ```
 </details>
+
 <b>9. Pelanggan Paling Tinggi Nilai Belanjanya</b>
 ![image](https://user-images.githubusercontent.com/68532033/89723735-5a7c6100-da24-11ea-89d2-b7c47b218f6d.png)
 <details>
