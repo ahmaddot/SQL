@@ -1,10 +1,25 @@
 ![image](https://user-images.githubusercontent.com/68532033/89724335-d5954580-da2b-11ea-8058-bed5e3995cdd.png)
 ```
-Project SQL pertama di DQLab yaitu "Data Engineer Challenge with SQL". Dimana di project ini kita menggunakan 
-syntax left join,right join,inner join, dan union. Kita menggunakan table yang sudah di sediakan DQLab yaitu 
-ms_pelanggan,ms_produk,tr_penjualan dan tr_penjualan_detail.Semua table sudah tersedia, kita tinggal menulis query dalam Code Editor.
+Untuk menyelesaikan project, maka kita akan mengetikkan code yang perlu disubmit untuk dicek jawabannya benar atau salah.
+
+Dari data yang sudah diberikan, dari pihak manajemen DQLab store ingin mengetahui:
+
+1A. Overall perofrmance DQLab Store dari tahun 2009 - 2012 untuk jumlah order dan total sales order finished
+
+1B. Overall performance DQLab by subcategory product yang akan dibandingkan antara tahun 2011 dan tahun 2012
+
+2A. Efektifitas dan efisiensi promosi yang dilakukan selama ini, dengan menghitung burn rate dari promosi yang dilakukan overall berdasarkan tahun
+
+2B. Efektifitas dan efisiensi promosi yang dilakukan selama ini, dengan menghitung burn rate dari promosi yang dilakukan overall berdasarkan sub-category
+
+Setelah melihat hasil analisa di Sub Bab 1 dan 2, selanjutnya dilakukan analisa terhadap customer DQLab. Analisa dari sisi customer dengan menggunakan metrics:
+
+3A. Analisa terhadap customer setiap tahunnya
+
+3B. Analisa terhadap jumlah customer baru setiap tahunnya
+
+3C. Cohort untuk mengetahui angka retention customer tahun 2009
 ```
-![image](https://user-images.githubusercontent.com/68532033/89724369-6c620200-da2c-11ea-99ff-89538ede7ccc.png)
 
 <b>1. Overall Performance by Year</b>
 <br>
