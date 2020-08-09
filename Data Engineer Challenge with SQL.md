@@ -4,7 +4,12 @@
 
 <details>
   <summary>Click to show query sql</summary>
-  <i>select no_urut,kode_produk,nama_produk,harga from ms_produk where harga >= 50000 and harga <= 150000;</i>
+  <p>
+
+```
+select no_urut,kode_produk,nama_produk,harga from ms_produk where harga >= 50000 and harga <= 150000;
+```
+  </p>
 </details>
 
 <b>2. Thumb Drive di DQLab Mart</b>
