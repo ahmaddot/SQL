@@ -5,8 +5,6 @@ Semua table di atas sudah tersedia, Anda tinggal menulis query Anda dalam Code E
 
 <details>
   <summary>Click to expand!</summary>
-  
-'''
 select tr_penjualan_detail.kode_transaksi,ms_pelanggan.kode_pelanggan,ms_pelanggan.nama_pelanggan,tr_penjualan.tanggal_transaksi,count(tr_penjualan_detail.kode_produk) as jumlah_detail
 from ms_pelanggan
 LEFT JOIN tr_penjualan ON
@@ -15,8 +13,6 @@ LEFT JOIN tr_penjualan_detail ON
 tr_penjualan.kode_transaksi = tr_penjualan_detail.kode_transaksi
 group by tr_penjualan_detail.kode_transaksi,ms_pelanggan.kode_pelanggan,ms_pelanggan.nama_pelanggan,tr_penjualan.tanggal_transaksi
 having count(tr_penjualan_detail.kode_produk)>1;
-'''
-
 </details>
 
 
