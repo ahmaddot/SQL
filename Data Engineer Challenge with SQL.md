@@ -17,9 +17,10 @@ select no_urut,kode_produk,nama_produk,harga from ms_produk where harga >= 50000
 ![image](https://user-images.githubusercontent.com/68532033/89723362-569a1000-da1f-11ea-866b-9d83fcc59145.png)
 <details>
   <summary>Click to show query sql</summary>
-  <i>
+
+```
 select no_urut,kode_produk,nama_produk,harga from ms_produk where nama_produk like '%Flashdisk%';
-</i>
+```
 </details>
 
 <b>3. Pelanggan Bergelar</b>
@@ -27,9 +28,9 @@ select no_urut,kode_produk,nama_produk,harga from ms_produk where nama_produk li
 ![image](https://user-images.githubusercontent.com/68532033/89723388-b85a7a00-da1f-11ea-8800-df507a425f2e.png)
 <details>
   <summary>Click to show query sql</summary>
-  <i>
-select no_urut,kode_pelanggan,nama_pelanggan,alamat from ms_pelanggan where nama_pelanggan like '%S.H%' or nama_pelanggan like '%Ir.%' or nama_pelanggan like '%Drs.%';
-</i>
+
+```select no_urut,kode_pelanggan,nama_pelanggan,alamat from ms_pelanggan where nama_pelanggan like '%S.H%' or nama_pelanggan like '%Ir.%' or nama_pelanggan like '%Drs.%';
+```
 </details>
 
 
