@@ -28,3 +28,21 @@ group by left(order_date,4);
 ```
   </p>
 </details>
+
+
+<b>2. Overall Performance by Product Sub Category</b>
+<br>
+![image](https://user-images.githubusercontent.com/68532033/89724456-49841d80-da2d-11ea-8034-0a76560cd6c2.png)
+<details>
+  <summary>Click to show query sql</summary>
+  <p>
+
+```
+select left(order_date,4) as years,product_sub_category,sum(sales) as sales
+from dqlab_sales_store
+where left(order_date,4) in ('2011','2012') and order_status = 'Order Finished'
+group by left(order_date,4),product_sub_category
+order by left(order_date,4),sum(sales) desc;
+```
+  </p>
+</details>
