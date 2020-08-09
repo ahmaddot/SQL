@@ -10,3 +10,7 @@
 
 <a href="https://academy.dqlab.id/certificate/pdf/DQLABPRJC4OOUKHL" target="_blank">Unduh</a> 
 
+<b>3. Project Data Analysis for B2B Retail: Customer Analytics Report</b>
+
+<a href="https://academy.dqlab.id/certificate/pdf/DQLABPRJ10FBNEGF" target="_blank">Unduh</a> 
+
