@@ -29,7 +29,8 @@ select no_urut,kode_produk,nama_produk,harga from ms_produk where nama_produk li
 <details>
   <summary>Click to show query sql</summary>
 
-```select no_urut,kode_pelanggan,nama_pelanggan,alamat from ms_pelanggan where nama_pelanggan like '%S.H%' or nama_pelanggan like '%Ir.%' or nama_pelanggan like '%Drs.%';
+```
+select no_urut,kode_pelanggan,nama_pelanggan,alamat from ms_pelanggan where nama_pelanggan like '%S.H%' or nama_pelanggan like '%Ir.%' or nama_pelanggan like '%Drs.%';
 ```
 </details>
 
